@@ -1,0 +1,63 @@
+﻿<Page x:Class="SwitchSilver.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1050" ShowsNavigationUI="False"
+	Title="Home" Background="White">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="165*"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="165*"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="165*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Image Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="39" Margin="0,1,0,0" Grid.Row="3" VerticalAlignment="Top" Width="1050" Source="LinesOnAWhiteBackground.PNG" Stretch="UniformToFill"/>
+        <Image Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="39" Margin="0,1,0,0" Grid.Row="5" VerticalAlignment="Top" Width="1050" Source="LinesOnAWhiteBackground.PNG" Stretch="UniformToFill"/>
+        <Image Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="39" Margin="0,1,0,0" Grid.Row="7" VerticalAlignment="Top" Width="1050" Source="LinesOnAWhiteBackground.PNG" Stretch="UniformToFill"/>
+        <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="4" VerticalAlignment="Top" Width="106"/>
+        <RadioButton Content="Pass" Grid.Column="1" HorizontalAlignment="Left" Margin="10,64,0,0" Grid.Row="4" VerticalAlignment="Top" IsEnabled="{Binding IsChecked, ElementName=checkBox}"/>
+        <RadioButton Content="Fail" Grid.Column="1" HorizontalAlignment="Left" Margin="54,64,0,0" Grid.Row="4" VerticalAlignment="Top" RenderTransformOrigin="-0.118,0.625" IsEnabled="{Binding IsChecked, ElementName=checkBox}"/>
+        <CheckBox x:Name="checkBox" Content="Completed" Grid.Column="1" HorizontalAlignment="Left" Margin="10,37,0,0" Grid.Row="4" VerticalAlignment="Top"/>
+        <Rectangle Grid.ColumnSpan="3" Fill="#FF7F00" HorizontalAlignment="Left" Margin="0,0,0,0" Height="10" Grid.Row="0" Stroke="#FF7F00" VerticalAlignment="Top" Width="200"/>
+        <Rectangle Grid.ColumnSpan="8" Grid.Column="2" Fill="#193385" HorizontalAlignment="Left" Height="10" Margin="59,0,0,0" Stroke="#193385" VerticalAlignment="Top" Width="845"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="96" Margin="0,5,0,0" Grid.Row="1" VerticalAlignment="Top" Width="161" Grid.ColumnSpan="2" Source="ucol-logo.jpg" Stretch="UniformToFill" Grid.RowSpan="2"/>
+        <Label Content="BICT" Grid.Column="2" HorizontalAlignment="Left" Margin="35,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="80" Width="116" FontSize="40" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Foreground="#193385" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Label Content="Course Planner" Grid.Column="3" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="80" Width="368" FontSize="40" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Foreground="#FF7F00" Grid.ColumnSpan="3"/>
+
+        <Label Content="Year One" Grid.Column="1" HorizontalAlignment="Left" Margin="0,1,0,0" Grid.Row="3" VerticalAlignment="Top" FontSize="20" Foreground="#193385" FontFamily="Segoe UI Semibold"/>
+        <Border BorderBrush="#193385" BorderThickness="0,0,0,1" Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="4" Grid.Row="3" VerticalAlignment="Bottom" Width="1050" Margin="0,0,0,0"/>
+        <Label Content="Year Two" Grid.Column="1" HorizontalAlignment="Left" Margin="0,1,0,0" Grid.Row="5" VerticalAlignment="Top" FontSize="20" Foreground="#193385" FontFamily="Segoe UI Semibold"/>
+        <Label Content="Year Three" Grid.Column="1" HorizontalAlignment="Left" Margin="0,1,0,0" Grid.Row="7" VerticalAlignment="Top" FontSize="20" Foreground="#193385" FontFamily="Segoe UI Semibold"/>
+        <Rectangle Grid.ColumnSpan="10" Fill="#FF0E1D4D" HorizontalAlignment="Left" Height="20" Stroke="#193385" VerticalAlignment="Top" Width="1050" Grid.Row="9"/>
+        <Rectangle Grid.ColumnSpan="8" Fill="#193385" HorizontalAlignment="Left" Height="5" Stroke="#193385" VerticalAlignment="Top" Width="836" Grid.Row="2"/>
+        <Rectangle Grid.ColumnSpan="3" Fill="#FF7F00" HorizontalAlignment="Left" Margin="73,0,0,0" Height="5" Grid.Row="2" Stroke="#FF7F00" VerticalAlignment="Bottom" Width="200" Grid.Column="7"/>
+
+        <Border BorderBrush="#193385" BorderThickness="0,0,0,1" Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="4" Grid.Row="4" VerticalAlignment="Bottom" Width="1050" Margin="0,0,0,0"/>
+        <Border BorderBrush="#193385" BorderThickness="0,0,0,1" Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="4" Grid.Row="5" VerticalAlignment="Bottom" Width="1050" Margin="0,0,0,0"/>
+        <Border BorderBrush="#193385" BorderThickness="0,0,0,1" Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="4" Grid.Row="6" VerticalAlignment="Bottom" Width="1050" Margin="0,0,0,0"/>
+        <Border BorderBrush="#193385" BorderThickness="0,0,0,1" Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="4" Grid.Row="7" VerticalAlignment="Bottom" Width="1050" Margin="0,0,0,0"/>
+        <Border BorderBrush="#193385" BorderThickness="0,0,0,1" Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="4" Grid.Row="8" VerticalAlignment="Bottom" Width="1050" Margin="0,0,0,0"/>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,85,0,0" Grid.Row="4" VerticalAlignment="Top" Width="75" Background="{x:Null}" BorderBrush="White" BorderThickness="0" Foreground="#193385" Click="Button_Click"/>
+    </Grid>
+</Page>

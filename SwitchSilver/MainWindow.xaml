@@ -1,8 +1,8 @@
-﻿<Window x:Class="SwitchSilver.MainWindow"
+﻿<NavigationWindow x:Class="SwitchSilver.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
-</Window>
+        Title="MainWindow" Height="700" Width="1050"
+        Source="Home.xaml" ResizeMode="NoResize" SnapsToDevicePixels="True">
+
+    
+</NavigationWindow>

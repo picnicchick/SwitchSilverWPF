@@ -16,15 +16,18 @@ using System.Windows.Shapes;
 namespace SwitchSilver
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Page2.xaml
     /// </summary>
-    /// 
-    ///hthtftytr
-    public partial class MainWindow : NavigationWindow
+    public partial class Details : Page
     {
-        public MainWindow()
+        public Details()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.GoBack();
         }
     }
 }
