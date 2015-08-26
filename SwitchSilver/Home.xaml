@@ -51,13 +51,15 @@
         <Label Content="Year Three" Grid.Column="1" HorizontalAlignment="Left" Margin="0,1,0,0" Grid.Row="7" VerticalAlignment="Top" FontSize="20" Foreground="#193385" FontFamily="Segoe UI Semibold"/>
         <Rectangle Grid.ColumnSpan="10" Fill="#FF0E1D4D" HorizontalAlignment="Left" Height="20" Stroke="#193385" VerticalAlignment="Top" Width="1050" Grid.Row="9"/>
         <Rectangle Grid.ColumnSpan="8" Fill="#193385" HorizontalAlignment="Left" Height="5" Stroke="#193385" VerticalAlignment="Top" Width="836" Grid.Row="2"/>
-        <Rectangle Grid.ColumnSpan="3" Fill="#FF7F00" HorizontalAlignment="Left" Margin="73,0,0,0" Height="5" Grid.Row="2" Stroke="#FF7F00" VerticalAlignment="Bottom" Width="200" Grid.Column="7"/>
+        <Rectangle Grid.ColumnSpan="3" Fill="#FF7F00" HorizontalAlignment="Left" Margin="73,0,0,0" Height="5" Grid.Row="2" Stroke="#FF7F00" VerticalAlignment="Top" Width="200" Grid.Column="7"/>
 
         <Border BorderBrush="#193385" BorderThickness="0,0,0,1" Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="4" Grid.Row="4" VerticalAlignment="Bottom" Width="1050" Margin="0,0,0,0"/>
         <Border BorderBrush="#193385" BorderThickness="0,0,0,1" Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="4" Grid.Row="5" VerticalAlignment="Bottom" Width="1050" Margin="0,0,0,0"/>
         <Border BorderBrush="#193385" BorderThickness="0,0,0,1" Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="4" Grid.Row="6" VerticalAlignment="Bottom" Width="1050" Margin="0,0,0,0"/>
         <Border BorderBrush="#193385" BorderThickness="0,0,0,1" Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="4" Grid.Row="7" VerticalAlignment="Bottom" Width="1050" Margin="0,0,0,0"/>
         <Border BorderBrush="#193385" BorderThickness="0,0,0,1" Grid.ColumnSpan="10" HorizontalAlignment="Left" Height="4" Grid.Row="8" VerticalAlignment="Bottom" Width="1050" Margin="0,0,0,0"/>
-        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,85,0,0" Grid.Row="4" VerticalAlignment="Top" Width="75" Background="{x:Null}" BorderBrush="White" BorderThickness="0" Foreground="#193385" Click="Button_Click"/>
+        <TextBlock Grid.Row="4" Grid.Column="1"  Margin="10,85,0,0">
+            <Hyperlink Click="Button_Click">More info...</Hyperlink>
+        </TextBlock>
     </Grid>
 </Page>

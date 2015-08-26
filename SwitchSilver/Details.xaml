@@ -15,7 +15,7 @@
         <Label Content="Course Planner" HorizontalAlignment="Left" Margin="272,20,0,0" VerticalAlignment="Top" Height="80" Width="368" FontSize="40" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Foreground="#FF7F00"/>
 
         <Rectangle Fill="#193385" HorizontalAlignment="Left" Height="5" Stroke="#193385" VerticalAlignment="Top" Width="836" Margin="0,110,0,0"/>
-        <Rectangle Fill="#FF7F00" HorizontalAlignment="Left" Margin="850,0,0,585" Height="5" Stroke="#FF7F00" VerticalAlignment="Bottom" Width="200"/>
+        <Rectangle Fill="#FF7F00" HorizontalAlignment="Left" Margin="841,110,0,0" Height="5" Stroke="#FF7F00" VerticalAlignment="Top" Width="209"/>
         <Button Click="Button_Click" Content="Button" HorizontalAlignment="Left" Margin="540,272,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
