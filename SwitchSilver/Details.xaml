@@ -1,0 +1,22 @@
+﻿<Page x:Class="SwitchSilver.Details"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1050" ShowsNavigationUI="False"
+	Title="Details">
+
+    <Grid>
+        <Rectangle Fill="#FF7F00" HorizontalAlignment="Left" Margin="0,0,0,0" Height="10" Grid.Row="0" Stroke="#FF7F00" VerticalAlignment="Top" Width="200"/>
+        <Rectangle Fill="#193385" HorizontalAlignment="Left" Height="10" Margin="205,0,0,0" Stroke="#193385" VerticalAlignment="Top" Width="845"/>
+        <Image HorizontalAlignment="Left" Height="96" Margin="20,15,0,0" VerticalAlignment="Top" Width="161" Source="ucol-logo.jpg" Stretch="UniformToFill"/>
+        <Label Content="BICT" HorizontalAlignment="Left" Margin="181,20,0,0" VerticalAlignment="Top" Height="80" Width="116" FontSize="40" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Foreground="#193385" FontWeight="Bold"/>
+        <Label Content="Course Planner" HorizontalAlignment="Left" Margin="272,20,0,0" VerticalAlignment="Top" Height="80" Width="368" FontSize="40" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Foreground="#FF7F00"/>
+
+        <Rectangle Fill="#193385" HorizontalAlignment="Left" Height="5" Stroke="#193385" VerticalAlignment="Top" Width="836" Margin="0,110,0,0"/>
+        <Rectangle Fill="#FF7F00" HorizontalAlignment="Left" Margin="841,110,0,0" Height="5" Stroke="#FF7F00" VerticalAlignment="Top" Width="209"/>
+        <Button Click="Button_Click" Content="Button" HorizontalAlignment="Left" Margin="540,272,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Page>
